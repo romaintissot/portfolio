@@ -1,0 +1,26 @@
+body {
+    background-color: #e7eade;
+    /* Le fond de la page sera noir */
+}
+
+p {
+    color: blue;
+}
+
+.titre {
+    color: indianred;
+    font-family: 'Lato';
+}
+
+p:hover {
+    color : darkblue;
+    font-size: 19px;
+}
+
+.yolo {
+    color: indianred;
+}
+
+.yolo:active{
+    background-color: teal;
+}
