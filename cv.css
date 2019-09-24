@@ -1,15 +1,17 @@
 body{	
 	background-color: white;
 	border-top: 20px solid #1250A3;
+	border-bottom : 20px solid #1250A3; /*bleu*/
 	margin-bottom: 20px;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .siteBorderRight{
 	position: fixed;
 	top : 0;
 	right : 0;
 	height : 100%;
-	border : 10px solid #1250A3;
+	border : 10px solid #1250A3; 
 	border-top : none;
 }
 .siteBorderLeft{
@@ -49,4 +51,16 @@ p:hover {
 
 .yolo:active{
     background-color: teal;
+}
+
+.img {
+	max-width: 50%;
+	height: auto;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
