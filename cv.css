@@ -1,10 +1,5 @@
 body{	
 	background-color: white;
-	border-top: 20px solid #1250A3;
-	border-bottom : 20px solid #1250A3; /*bleu*/
-	margin-bottom: 20px;
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 
 p {
@@ -30,8 +25,7 @@ p:hover {
 }
 
 .img {
-	max-width: 50%;
-	height: auto;
+    height : 50px;
 }
 
 #conteneur
@@ -44,36 +38,39 @@ p:hover {
 
 /*  Header  */
 @media (min-width:1099px){
-    header{
+    header.relative{
         background: #dbd7d7; 
         overflow: hidden;
+        height: 70px;
         
     }
 
     header .logo{
-        margin-top: 100px;
-        margin-left: 75px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+
     }
 
     header nav ul{
         display: block;
         overflow: hidden;
-        margin-top: 100px;
         list-style: none;
     }
 
     header nav ul li{
         display: block;
-        margin-bottom: 30px;
     }
 
     header nav ul li a{
         color: #454545;
-        float: left;
+        margin-left: 10px;
+        float: right;
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
-        letter-spacing: 1px;
+        letter-spacing: 3px;
     }
 
     header nav ul li a:hover,
@@ -83,7 +80,7 @@ p:hover {
 
     header .footer{
         position: absolute;
-        bottom: 50px;
+        bottom: 5px;
     }
 
     header ul.social{
