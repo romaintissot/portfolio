@@ -2,8 +2,19 @@ body{
 	background-color: white;
 }
 
+h1 {
+	box-shadow: 10px 5px 5px red;
+}
+
 p {
     color: blue;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px; /* Marge intérieure de 12px */
+    /*margin: 250px; /* Marge extérieure de 50px */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    margin-bottom: 20px;
 }
 
 .titre {
@@ -28,8 +39,9 @@ p:hover {
     height : 50px;
 }
 
-#conteneur
+#clique
 {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,4 +189,7 @@ p:hover {
 }
 .close_menu{
     background-position: -41px 0!important;
+=======
+    text-align: right;
+>>>>>>> 7b10bc3f7f8bb87df0dae2b5efc8d6706dd67f27
 }
