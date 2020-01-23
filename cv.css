@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-    color: blue;
+    color: darkgrey;
     width: 20%;
     border: 1px solid black;
     text-align: center;
@@ -23,7 +23,7 @@ p {
 }
 
 p:hover {
-    color : darkblue;
+    color : gray;
     font-size: 19px;
 }
 
@@ -48,148 +48,41 @@ p:hover {
 }
 
 
-/*  Header  */
-@media (min-width:1099px){
-    header.relative{
-        background: #dbd7d7; 
-        overflow: hidden;
-        height: 70px;
-        
-    }
-
-    header .logo{
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-
-    }
-
-    header nav ul{
-        display: block;
-        overflow: hidden;
-        list-style: none;
-    }
-
-    header nav ul li{
-        display: block;
-    }
-
-    header nav ul li a{
-        color: #454545;
-        margin-left: 10px;
-        float: right;
-        font-family: "raleway-regular", arial;
-        font-size: 14px;
-        text-decoration: none;
-        letter-spacing: 3px;
-    }
-
-    header nav ul li a:hover,
-    header nav ul li a.selected{
-        color: #969595;
-    }
-
-    header .footer{
-        position: absolute;
-        bottom: 5px;
-    }
-
-    header ul.social{
-        list-style: none;
-        margin-bottom: 5px;
-    }
-
-    header ul.social li{
-        display: block;
-        float: left;
-        position: relative;
-        margin: 0 15px 15px 0;
-    }
-
-
-    header ul.social li a{
-        display: block;
-        width: 30px;
-        height: 30px;
-        background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
-    }
-
-
-
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
-        background-position: -31px 0;
-    }
-
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
-        background-position: -62px 0;
-    }
-
-    header ul.social li a.twitter,
-    header ul.social li a.twitter:hover{
-        background-position: -93px 0;
-    }
-
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
-        background-position: -124px 0;
-    }
-
-    header ul.social li a.rss,
-    header ul.social li a.rss:hover{
-        background-position: -155px 0;
-    }
-
-    header .rights p{
-        color: #454545;
-        font-family: "raleway-regular", arial;
-        font-size: 11px;
-        letter-spacing: 1px;
-        line-height: 18px;
-    }
-
-    header .rights a{
-        font-family: "raleway-bold", arial;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    #menu_icon,
-    .close_menu{
-        display: none;
-    }
-
+header{
+    background-color: pink;
 }
 
-#menu_icon,
-.close_menu{
-    float: right;
-    margin-right: 40px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    background: url('../img/men_icons.png') no-repeat;
+nav{
+    background-color: yellow;
 }
 
-#menu_icon{    
-    background-position: 0 0;
+section{
+    background-color: blue;
 }
-.close_menu{
-    background-position: -41px 0!important;
-=======
-    text-align: right;
->>>>>>> 7b10bc3f7f8bb87df0dae2b5efc8d6706dd67f27
+aside{
+    background-color: green;
+}
+article{
+    background-color: purple;
+}
+
+#conteneur{
+    background-color: beige;
+    display: flex;
+    height: 20px;
+}
+
+.element
+{
+   /* margin: auto;*/
+}
+
+.element:nth-child(2) /* On prend le deuxième bloc élément */
+{
+    background-color: blue;
+    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+     flex: 1;
+     margin : auto;
+    align-content: center;
+
 }
