@@ -10,7 +10,7 @@ p {
     color: darkgrey;
     width: 20%;
     border: 1px solid black;
-    text-align: center;
+    text-align: justify;
     padding: 12px; /* Marge intérieure de 12px */
     /*margin: 250px; /* Marge extérieure de 50px */
     margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
