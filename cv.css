@@ -54,6 +54,7 @@ header{
 
 nav{
     background-color: yellow;
+    display: flex;
 }
 
 section{
@@ -61,9 +62,11 @@ section{
 }
 aside{
     background-color: green;
+    width: 20%;
 }
 article{
     background-color: purple;
+    width: 80%;
 }
 
 #conteneur{
@@ -77,12 +80,11 @@ article{
    /* margin: auto;*/
 }
 
-.element:nth-child(2) /* On prend le deuxième bloc élément */
-{
-    background-color: blue;
-    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
-     flex: 1;
-     margin : auto;
-    align-content: center;
 
+#figure{
+	height: 100%;
+	width: 100%;
+	margin: auto;
 }
+
+
