@@ -1,10 +1,96 @@
-body{	
-	background-color: white;
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'ARCADECLASSIC';
+    src: url('polices/ARCADECLASSIC.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1 {
-	box-shadow: 10px 5px 5px red;
+/* Header */
+
+header
+{
+	background-color: pink;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-top: 2px solid black;
+   	border-left: 2px solid black;
+   	border-right: 2px solid black;
 }
+
+header h1
+{
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation */
+
+header nav
+{
+	border-top: 2px solid black;
+   	border-left: 2px solid black;
+   	border-bottom: 2px solid black;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+   	vertical-align: center;
+}
+
+nav li
+{
+    margin-right: 15px;
+
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+body{	
+	background-color: white;
+	font-family: 'ARCADECLASSIC';
+}
+
+
 
 p {
     color: darkgrey;
@@ -41,15 +127,9 @@ p:hover {
 
 #clique
 {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-header{
-    background-color: pink;
 }
 
 nav{
@@ -72,7 +152,7 @@ article{
 #conteneur{
     background-color: beige;
     display: flex;
-    height: 20px;
+    
 }
 
 .element
