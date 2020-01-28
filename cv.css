@@ -1,17 +1,26 @@
 /* Définition des polices personnalisées */
 
-@font-face
-{
+@font-face {
     font-family: 'ARCADECLASSIC';
     src: url('polices/ARCADECLASSIC.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
+/* body */
+body {   
+    background-color: white;
+    font-family: 'ARCADECLASSIC';
+}
+
+/* page */
+#bloc_page {  
+    margin: auto;
+}
+
 /* Header */
 
-header
-{
+header {
 	background-color: pink;
 	display: flex;
     justify-content: space-between;
@@ -22,149 +31,126 @@ header
    	border-right: 2px solid black;
 }
 
-header h1
-{
+header h1 {
     font-size: 2.5em;
     font-weight: normal;
     margin: 0 0 0 10px;
 }
 
-header h2
-{
+header h2 {
     font-size: 1.1em;
     margin-top: 0px;
     font-weight: normal;
     margin: 0 0 0 10px;
 }
 
-#titre_principal
-{
+#titre_principal {
     display: flex;
     flex-direction: column;
 }
 
-/* Navigation */
+/* header Navigation */
 
-header nav
-{
+header nav {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center; 
 	border-top: 2px solid black;
    	border-left: 2px solid black;
    	border-bottom: 2px solid black;
 }
 
-nav ul
-{
+header nav ul {
     list-style-type: none;
     display: flex;
-   	vertical-align: center;
 }
 
-nav li
-{
+header nav li {
     margin-right: 15px;
 
 }
 
-nav a
-{
+header nav a {
     font-size: 1.3em;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
 }
 
-nav a:hover
-{
+header nav a:hover {
     color: #760001;
     border-bottom: 3px solid #760001;
 }
 
-#bloc_page
-{
-    width: 900px;
-    margin: auto;
-}
-
-body{	
-	background-color: white;
-	font-family: 'ARCADECLASSIC';
-}
-
-
-
-p {
+article p {
     color: darkgrey;
-    width: 20%;
-    border: 1px solid black;
-    text-align: justify;
-    padding: 12px; /* Marge intérieure de 12px */
-    /*margin: 250px; /* Marge extérieure de 50px */
-    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
-    margin-bottom: 20px;
+    /*margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
 }
 
-.titre {
-    color: indianred;
-    font-family: 'Lato';
+img {
+    height : 150px;
+    width : 150px;
 }
 
-p:hover {
+/*p:hover {
     color : gray;
     font-size: 19px;
-}
+}*/
 
 .yolo {
     color: indianred;
 }
 
-.yolo:active{
+.yolo:active {
     background-color: teal;
 }
 
-.img {
-    height : 50px;
+
+
+/*couleur de fond*/
+section {
+    background-color: blue;
+    margin-bottom: 20px;
+
 }
 
-#clique
-{
+article {
+    background-color: purple;
+
+}
+
+
+article nav {
     display: flex;
-    justify-content: center;
+    background-color: green; 
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: 200px
+}
+
+article nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    padding-left: 0px;
     align-items: center;
 }
 
-nav{
-    background-color: yellow;
+article nav li {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+article nav img:hover {
+    color: #760001;
+    border: 3px solid #760001;
+}
+
+footer {
     display: flex;
 }
 
-section{
-    background-color: blue;
-}
-aside{
-    background-color: green;
-    width: 20%;
-}
-article{
-    background-color: purple;
-    width: 80%;
-}
-
-#conteneur{
-    background-color: beige;
-    display: flex;
-    
-}
-
-.element
-{
-   /* margin: auto;*/
-}
-
-
-#figure{
-	height: 100%;
-	width: 100%;
-	margin: auto;
-}
 
 
