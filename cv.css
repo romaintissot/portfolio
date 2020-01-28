@@ -59,6 +59,7 @@ header nav {
 	border-top: 2px solid black;
    	border-left: 2px solid black;
    	border-bottom: 2px solid black;
+   	float:left;
 }
 
 header nav ul {
@@ -126,7 +127,7 @@ article nav {
     background-color: green; 
     padding-bottom: 100px;
     padding-top: 100px;
-    height: 200px
+	height: 200px
 }
 
 article nav ul {
@@ -135,6 +136,7 @@ article nav ul {
     margin: auto;
     padding-left: 0px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 article nav li {
@@ -142,6 +144,9 @@ article nav li {
     margin-left: 30px;
 }
 
+article nav img {
+	box-sizing: border-box;
+}
 
 article nav img:hover {
     color: #760001;
@@ -153,4 +158,8 @@ footer {
 }
 
 
-
+.rendering {
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+}
