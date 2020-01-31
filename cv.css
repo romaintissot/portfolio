@@ -90,8 +90,9 @@ article p {
 }
 
 img {
-    height : 150px;
-    width : 150px;
+	display:flex;
+    width: 50%;
+  	height: auto;
 }
 
 /*p:hover {
@@ -133,9 +134,10 @@ article nav ul {
     list-style-type: none;
     display: flex;
     margin: auto;
-    padding-left: 0px;
+    /*padding-left: 0px;*/
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
 }
 
 article nav li {
@@ -190,3 +192,66 @@ footer {
     overflow: hidden;
 }
 
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 512px)
+{
+    header nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    header nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
+@media all and (max-width: 512px)
+{
+    section
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    article nav
+    {
+        width: auto;
+        height: auto;
+        
+    }
+
+
+    article navli
+    {
+    	justify-content: center;
+    }
+    article img{
+    	margin-bottom: 10px;
+    }
+
+}
