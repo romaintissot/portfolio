@@ -12,11 +12,16 @@ body {
     background-color: white;
     font-family: 'PRESSSTART2P';
     font-size: 0.7em;
+    margin : 10px;
+    height : 100%;
 }
 
 /* page */
 #bloc_page {  
-    margin: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -85,12 +90,14 @@ header nav a:hover {
     border-bottom: 3px solid #760001;
 }
 
+
+
 article p {
     color: darkgrey;
     /*margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
 }
 
-img {
+article img {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -115,8 +122,12 @@ img {
 
 
 /*couleur de fond*/
+
+
 section {
-    background-color: blue;
+    background-color: green;
+    height: 425px;
+    overflow-x: hidden;
 
 }
 
@@ -153,11 +164,42 @@ article nav img:hover {
     box-shadow:  0 0 0 3px #760001;
 }
 
+/*pages hors menu */
+table {
+    overflow-x: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+table tr th{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+table tr td{
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+.line {
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+
 footer {
 	display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 10px solid grey;
+    padding-top: 10px;
+    border-top: 5px solid black;
+    margin-bottom: 10px;
 }
 
 footer div {
@@ -288,4 +330,24 @@ footer div {
     
 
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: green /*#f1f1f1*/; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
